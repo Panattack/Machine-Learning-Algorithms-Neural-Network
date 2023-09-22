@@ -3,8 +3,7 @@
 ## Part A (60%)
 Implement in Java or C++ or Python (or other language that
 the tutors will allow you) two or three (depending on
-whether your team has two or three members) by the following algorithms
-learning so that they can be used to rank texts
+whether your team has two or three members) by the following learning algorithms so that they can be used to rank texts
 into two (unrelated) categories (e.g. positive/negative opinion)
 
 • Naïve Bayes classifier, multivariate Bernoulli form or
@@ -21,7 +20,7 @@ The vocabulary should include the m most frequent words of
 of training data, first skipping the n most frequent and the k most
 rare words of the training data, where m, n, k will be hyperparameters. Optionally you can add a selection of properties
 through information gain calculation (or through other means) to
-naive Bayes classifier and in Logistic Regression. Others
+naive Bayes classifier. Others
 algorithms already incorporate feature selection methods.
 
 Demonstrate the learning capabilities of your implementations using
@@ -45,8 +44,7 @@ performance of other available implementations (e.g. Weka or Scikit-learn)
 of the same learning algorithms that you implemented in part A' or others
 learning algorithms (e.g. MLPs implementations of Scikit-learn),
 constructing the same curves and tables as in Part A'. I will
-you need to compare with at least two or three available implementations
-learning algorithms (depending on whether your team has two or three members).
+need you to compare with at least two or three available implementations of learning algorithms.
 You should use the same representations of the texts as in
 Part A (feature vectors with values ​​of 0 or 1 that will indicate which words
 of vocabulary appear in the text or not, with the same vocabulary as in
