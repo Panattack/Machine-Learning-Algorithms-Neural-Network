@@ -8,8 +8,10 @@ into two (unrelated) categories (e.g. positive/negative opinion)
 
 • Naïve Bayes classifier, multivariate Bernoulli form or
 polynomial form.
+
 • ID3, optionally with sawing or early extension termination
 of every tree.
+
 • Random Forest using ID3 or its variant (eg where
 will produce trees that will not exceed a maximum depth,
 which will be given as a hyper-parameter) to produce the trees.
