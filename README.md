@@ -7,14 +7,14 @@ whether your team has two or three members) by the following learning algorithms
 into two (unrelated) categories (e.g. positive/negative opinion)
 
 • Naïve Bayes classifier, multivariate Bernoulli form or
-polynomial form.
+  polynomial form.
 
 • ID3, optionally with sawing or early extension termination
-of every tree.
+  of every tree.
 
 • Random Forest using ID3 or its variant (eg where
-will produce trees that will not exceed a maximum depth,
-which will be given as a hyper-parameter) to produce the trees.
+  will produce trees that will not exceed a maximum depth,
+  which will be given as a hyper-parameter) to produce the trees.
 
 Each text should be represented by a vector of properties with values
 0 or 1, which will indicate which vocabulary words the text contains.
